@@ -1,4 +1,4 @@
-1 - misol
+# 1 - misol
 harorat = int(input("Hozirgi haroratni kiriting (°C): "))
 
 if harorat > 30:
@@ -14,7 +14,7 @@ else:
     # 0°C dan 10°C gacha bo'lgan holat uchun
     print("Havo sovuq, issiqroq kiyining.")
 
-2 - misol
+# 2 - misol
 tanlov = input("Tanlang (pizza, burger, salat): ").lower() # Kiritilgan matnni kichik harfga o'tkazamiz
 
 if tanlov == "pizza":
@@ -29,7 +29,7 @@ elif tanlov == "salat":
 else:
     print("Bizda bunday taom yo‘q!")
 
-3 - misol
+# 3 - misol
 yosh = int(input("Yoshingizni kiriting: "))
 narx = 100000
 
@@ -44,7 +44,7 @@ else: # yosh > 60
     chegirma_narxi = narx * (1 - chegirma_foiz / 100)
     print(f"Keksalarga {chegirma_foiz}% chegirma bor! Yangi narx: {int(chegirma_narxi)} so‘m.")
 
-4 - misol
+# 4 - misol
 rang = input("Trafik chirog'ining rangini kiriting (qizil, sariq, yashil): ").lower()
 
 if rang == "qizil":
@@ -56,7 +56,7 @@ elif rang == "yashil":
 else:
     print("Bunday rang yo‘q!")
 
-5 - misol
+# 5 - misol
 tezlik = int(input("Internet tezligini kiriting (Mbps): "))
 
 if tezlik > 100:
